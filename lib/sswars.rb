@@ -7,7 +7,7 @@ module Sswars
   # base_uri "animatedgif.me"
 
   # Class method
-  def self.find_name(id)   
+  def self.find_people(id)   
     get_name get("/people/#{id}")
     # get("/people/#{id}").parsed_response["name"]
   end
