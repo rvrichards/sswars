@@ -23,7 +23,9 @@ If there is no planet or person with that number an empty hash is returned.
   * In IRB test by running: **Sswars.find_planet(42)** - should return => "Haruun Kal"
 6. Create local git repo and commit. Push to Github.
   * Github: git@github.com:rvrichards/sswars.git
-7. Create gem, run: **rake release**
+7. Create gem, run: 
+  * **bundle**
+  * **rake release**
 
 
 
