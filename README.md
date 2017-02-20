@@ -27,7 +27,7 @@ If there is no planet or person with that number an empty hash is returned.
   * **bundle**
   * **gem build sswars.gemspec**
 8. Install gem locally and test
-  * **gem install ./sswars-0.1.0.gem **
+  * **gem install ./sswars-0.1.0.gem**
   * In IRB you only have to type: **require sswars **
 9. Now push to RubyGem.org
   * First: Setup account on your machine
