@@ -25,7 +25,16 @@ If there is no planet or person with that number an empty hash is returned.
   * Github: git@github.com:rvrichards/sswars.git
 7. Create gem, run: 
   * **bundle**
-  * **rake release**
+  * **gem build sswars.gemspec**
+8. Install gem locally and test
+  * **gem install ./sswars-0.1.0.gem **
+  * In IRB you only have to type: **require sswars **
+9. Now push to RubyGem.org
+  * First: Setup account on your machine
+  * **curl -u rvrichards https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials**
+  * Lastly: Push out gem
+  * **gem push sswars-0.1.0.gem**
+10. Profit!
 
 
 
@@ -45,13 +54,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This was just for fun & learning.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+None planned now.
 
 ## Contributing
 
